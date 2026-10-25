@@ -4,15 +4,15 @@ int max_of_four(int a, int b, int c, int d){
     
     if(b > max){
         max = b;
-        
+    }
         if(c > max){
             max = c;
-            
+        }
             if(d > max){
                 max = d;
             }
-        }
-    }
+        
+    
     return max;
 }
     
