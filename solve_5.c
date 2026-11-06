@@ -7,7 +7,6 @@ void update(int *a,int *b) {
     if(diff < 0){
         diff = -diff;
     }
-    
     *a = sum;
     *b = diff;
 }
