@@ -14,7 +14,8 @@ int main()
     for(int i = a; i <= b; i++){
         if(i >= 1 && i <= 9){
             printf("%s\n", words[i - 1]);
-        } else{
+        } 
+        else{
             if(i % 2 == 0){
                 printf("even\n");
             }else{
